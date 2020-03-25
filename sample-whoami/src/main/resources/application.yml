@@ -1,1 +1,7 @@
 server.port: 19090
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
